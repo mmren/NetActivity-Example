@@ -1,0 +1,10 @@
+<resources>
+
+
+
+    <dimen name="titlebar_h">48dp</dimen>
+    <dimen name="marg_14">8dp</dimen>
+    <dimen name="actionBar_title_text_nomarl_size">20sp</dimen>
+    <dimen name="actionBar_button_text_nomarl_size">18sp</dimen>
+    <dimen name="actionBar_button_text_small_size">10sp</dimen>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NetActivity-Example</string>
+    <string name="service_tel_content">客服电话 %s</string>
+    <string name="call">呼叫</string>
+</resources>

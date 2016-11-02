@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_h">
+
+
+        <TextView
+            android:id="@+id/left_imbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/marg_14"
+            android:background="@null"
+            android:drawableLeft="@drawable/selector_return"
+            android:gravity="left|center_vertical"
+            android:paddingRight="5dp"
+            android:textColor="#000000"
+            android:textSize="@dimen/actionBar_button_text_nomarl_size" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/left_imbt"
+            android:layout_alignTop="@id/left_imbt"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="标题"
+            android:textColor="@color/title_text"
+            android:textSize="@dimen/actionBar_title_text_nomarl_size" />
+
+
+        <!-- actionbar 右边按钮 -->
+
+        <TextView
+            android:id="@+id/right_imbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@id/left_imbt"
+            android:layout_alignParentRight="true"
+
+            android:layout_alignTop="@id/left_imbt"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/marg_14"
+            android:gravity="center"
+            android:textColor="@drawable/right_btn_text_selector" />
+        <!--android:background="@drawable/selector_btn_action_bg"-->
+        <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1px"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="#FFE5E5E5"/>-->
+    </RelativeLayout>
+</LinearLayout>
